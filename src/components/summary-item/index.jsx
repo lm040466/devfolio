@@ -4,10 +4,11 @@ import React from 'react';
 const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
+  description_kor: 'text-md text-gray-600 font-light',
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false }) => {
+const SummaryItem = ({ name, description_kor, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
@@ -24,6 +25,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
       >
         {link ? linkContent : name}
       </h3>
+      <p className={classes.description_kor}>{description_kor}</p>
       <p className={classes.description}>{description}</p>
     </div>
   );

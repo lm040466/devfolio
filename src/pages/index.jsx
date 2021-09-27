@@ -49,6 +49,7 @@ export const pageQuery = graphql`
         linkedin
         projects {
           name
+          description_kor
           description
           link
         }

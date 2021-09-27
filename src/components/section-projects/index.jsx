@@ -12,6 +12,7 @@ const SectionProjects = ({ projects }) => {
         <SummaryItem
           key={project.name}
           name={project.name}
+          description_kor = {project.description_kor}
           description={project.description}
           link={project.link}
         />
