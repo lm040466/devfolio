@@ -14,6 +14,23 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/eunjeong-you-0297871a5/`,
     // Content of the About Me section
     about: `건축공학과 소프트웨어를 공부한 융합형 엔지니어입니다. 열린 가치관과 실패를 두려워 하지 않는, 열정과 끈기를 가지고 있습니다. \n I am a convergence engineer who studied Architectural engineering and Software programming. I have open values, am not afraid of failure, and have passion and patience.`,
+    // Optional: List your skills, they must have `name` and `description`.
+    skills: [
+      {
+        name: 'Languages & Frameworks',
+        description:
+          'Java, Python, C, Spring, OpenCV',
+      },
+      {
+        name: 'Databases',
+        description: 'Tibero, PostgreSQL, MySQL',
+      },
+      {
+        name: 'Other',
+        description:
+          'API G/W, OpenShift',
+      },
+    ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -68,23 +85,6 @@ module.exports = {
         name: 'BIT 연구실',
         description: 'Undergraduate Researcher, November 2016 - July 2017',
         link: 'https://bitlab.ajou.ac.kr/members/alumni#h.p__cQ_XGVmH_jA',
-      },
-    ],
-    // Optional: List your skills, they must have `name` and `description`.
-    skills: [
-      {
-        name: 'Languages & Frameworks',
-        description:
-          'Java, Python, C, Spring, OpenCV',
-      },
-      {
-        name: 'Databases',
-        description: 'Tibero, PostgreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'API G/W, OpenShift',
       },
     ],
   },
