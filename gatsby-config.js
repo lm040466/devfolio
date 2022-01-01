@@ -150,6 +150,4 @@ module.exports = {
       },
     },
   ],
-  //gitHub
-  pathPrefix: "/lm040466.github.io",
 };
